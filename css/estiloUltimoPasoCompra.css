@@ -1,0 +1,62 @@
+#nombreTienda{
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+#cabecera{
+    width: 100%;
+    z-index: 1;
+}
+#listaOrdenCompra{
+    padding-top: 50px;
+    width: 600px;
+    float: left;
+}
+.productoLista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productoLista p{
+    margin-left: 30px;
+}
+
+#bodyUltimoPaso{
+    padding-top: 100px;
+    text-align: center;
+    background-color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    display: flow-root;
+}
+
+#datosOrdenCompra, #datosComprador{
+    display: inline-block;
+}
+
+#datosComprador{
+    margin-top: 40px;
+}
+
+#datosComprador div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+label{
+    display:-webkit-inline-box;
+}
+
+#fechas{
+    float: right;
+}
+
+#boxTarjetaCred{
+    width: 200px;
+}
+
+#boxTarjetaCred div{
+    display: inline;
+}

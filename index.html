@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Tienda de juegos
+    </title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">  
+    <script src="js/claseVideojuegos.js"></script>
+    
+</head>
+
+<html lang="es">
+    <body>
+        <header id="cabecera" class="position-fixed">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <a id="nombreTienda" class="navbar-brand" href="index.html">Zanarkand Gamer</a>
+                  <div id="carrito">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+        
+        <div id="ordenCompra" class="carritoVacio">
+            <ul id="listaOrdenCompra"></ul>
+        </div>        
+
+        <div id="catalogo">
+            <div id="filtros"></div>
+            <div id="cajonGrandeCard"></div>
+        </div>
+
+        <div id="msjItemAgregadoAlCarrito"></div>
+    </body>
+    <script src="js/videojuegos.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/filtros.js"></script>
+    <script src="js/catalogo.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/miarchivo.js"></script>
+    <link rel="stylesheet" href="css/estiloIndex.css">
+</html>

@@ -1,0 +1,103 @@
+#catalogo{
+    margin: 1.5%;
+    padding-top: 100px;
+}
+
+body{
+    font-family: "Press Start 2P", monospace;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+#filtros{
+    margin: 1.5%;
+    float: left;
+}
+
+#carritoVacio{
+    text-align: center;
+    font-size: large;
+}
+
+.li, .nomOrdenCompra{
+    margin: 5px;
+    display: inline-block;
+}
+
+#listaOrdenCompra li div {
+    display: inline-block;
+    width: 400px;
+}
+
+#listaOrdenCompra{
+    padding-left: 10px;
+    display: grid;
+}
+
+#finalizarCompra{
+    margin-left: 35%;
+}
+
+.nomOrdenCompra{
+    border-left: inset;
+    border-right: inset;
+    border-left-color: goldenrod;
+    border-right-color: goldenrod;
+    font-size: large;
+}
+
+#nombreTienda{
+    text-align: center;
+}
+
+#filtros{
+    color:blue;
+}
+
+#carrito{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    width: 250px;
+}
+
+#carrito svg{
+    float: left;
+}
+
+body{
+    background-color: grey;
+}
+
+#cabecera{
+    width: 100%;
+    z-index: 1;
+    margin-top: -24px;
+}
+
+#ordenCompra{
+   min-width: 25rem;
+   position: fixed;
+   right: 1px;
+   background-color: white;
+   margin-top: 100px;
+   z-index: 100; 
+   overflow-y: scroll;
+}
+
+#btnCerrarCarrito, #ordenCompra{
+    display: none;
+}
+
+#btnAbrirCarrito, #btnCerrarCarrito{
+    width: 150px;
+}
+
+#msjItemAgregadoAlCarrito{
+    background-color: red;
+    border-radius: 5px;
+    position:fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 1003;
+}
